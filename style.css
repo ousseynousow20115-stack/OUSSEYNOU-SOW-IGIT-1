@@ -174,14 +174,6 @@ li {
     margin-bottom: 8px;
 }
 
-.trait-titre {
-    width: 60px;
-    height: 4px;
-    background-color: #e67e22;
-    margin-bottom: 30px;
-}
-
-
 /*Page expertise */
 .fond-photo {
     background-color: #1e2a3e;
@@ -416,9 +408,7 @@ li {
     cursor: pointer;
 }
 
-.bouton-formulaire:hover {
-    background-color: #a93226;
-}
+
 
 /* le pied de Page */
 .pied-de-page {
