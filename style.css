@@ -1,10 +1,4 @@
-/* ================================================
-   PLEXEN - Feuille de style
-   Simple, elementaire, pour debutant
-   ================================================ */
 
-
-/* ---------- RESET DE BASE ---------- */
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +31,7 @@ li {
 }
 
 
-/* ---------- EN-TETE ---------- */
+/*en-TETE*/
 .entete {
     background-color: #ffffff;
     border-bottom: 3px solid #e67e22;
@@ -56,11 +50,11 @@ li {
 }
 
 .logo img {
-    height: 60px;
+    height: 70px;
 }
 
 
-/* ---------- NAVIGATION ---------- */
+/* Navigation */
 .navigation {
     display: flex;
     gap: 8px;
@@ -99,7 +93,7 @@ li {
 }
 
 
-/* ---------- SECTION ACCUEIL (HERO) ---------- */
+/* La PArtie  */
 .section-accueil {
     background-color: #1e2a3e;
     background-image: url('images/transformateur-hta-htb.jpg');
@@ -166,7 +160,7 @@ li {
 }
 
 
-/* ---------- CONTENU GENERAL ---------- */
+/*tous ce qui est contenu  */
 .contenu {
     max-width: 1100px;
     margin: 0 auto;
@@ -188,7 +182,7 @@ li {
 }
 
 
-/* ---------- PAGE EXPERTISE ---------- */
+/*Page expertise */
 .fond-photo {
     background-color: #1e2a3e;
     background-image: url('images/poste-htb-construction.jpg');
@@ -255,7 +249,7 @@ li {
 }
 
 
-/* ---------- PAGE SERVICES ---------- */
+/* La Page Service */
 .grille-services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -289,7 +283,7 @@ li {
 }
 
 
-/* ---------- PAGE REALISATIONS ---------- */
+/* La page  realisation */
 .grille-photos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -324,7 +318,7 @@ li {
 }
 
 
-/* ---------- PAGE CONTACT ---------- */
+/* la page  CONTACT */
 .grille-contact {
     display: grid;
     grid-template-columns: 1fr 1.3fr;
@@ -426,8 +420,7 @@ li {
     background-color: #a93226;
 }
 
-
-/* ---------- PIED DE PAGE ---------- */
+/* le pied de Page */
 .pied-de-page {
     background-color: #0f1e2d;
     color: #cccccc;
@@ -475,39 +468,4 @@ li {
 .copyright {
     font-size: 12px;
     color: #444444;
-}
-
-
-/* ---------- RESPONSIVE (mobile) ---------- */
-@media (max-width: 768px) {
-
-    .entete-interieur {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navigation {
-        justify-content: center;
-    }
-
-    .accueil-titre {
-        font-size: 20px;
-    }
-
-    .grille-services {
-        grid-template-columns: 1fr;
-    }
-
-    .grille-photos {
-        grid-template-columns: 1fr;
-    }
-
-    .grille-contact {
-        grid-template-columns: 1fr;
-    }
-
-    .contenu {
-        padding: 30px 14px;
-    }
-
 }
